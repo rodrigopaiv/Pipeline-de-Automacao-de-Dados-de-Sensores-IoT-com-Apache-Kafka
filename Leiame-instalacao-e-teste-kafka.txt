@@ -1,0 +1,43 @@
+# Etapa 1: Inicializar o Apache Kafka
+
+# 1. Pelo terminal acesse o diretório raiz do Kafka.
+
+# 2. Inicialize o Zookeeper com o comando abaixo:
+
+bin/zookeeper-server-start.sh config/zookeeper.properties
+
+# 3. Inicialize o Kafka Broker com o comando abaixo: 
+
+bin/kafka-server-start.sh config/server.properties
+
+# 5. Crie um tópico com o comando abaixo:
+
+bin/kafka-topics.sh --create --topic projeto5 --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
+
+# 6. Para testar, vamos gravar no tópico: 
+
+bin/kafka-console-producer.sh --topic projeto5 --broker-list localhost:9092
+
+# 7. Para testar, vamos consumir (ler) o tópico:
+
+bin/kafka-console-consumer.sh --topic projeto5 --from-beginning --bootstrap-server localhost:9092
+
+
+
+# Etapa 2: Executar o Pipeline
+
+# 1. Instalar o Miniconda e instalar o pacote kafka-python.
+
+# 2. Colocar os arquivos do pipeline na pasta Documents.
+
+# 3. Abrir 2 terminais.
+
+# 4. Iniciar a simulação no CupCarbon.
+
+# 5. No primeiro terminal executar o producer: python producer.py
+
+# 6. No segundo terminal iniciar a execução do consumer: python consumer.py
+
+# 7. Acompanhar o pipeline sendo executado em tempo real.
+
+

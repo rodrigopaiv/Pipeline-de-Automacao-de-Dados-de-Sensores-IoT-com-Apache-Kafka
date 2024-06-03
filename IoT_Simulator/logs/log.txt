@@ -1,0 +1,4169 @@
+===========================
+Initialization
+======================================================
+START SIMULATION
+======================================================
+
+----------------------------------------------------------------------------
+Time : 0.0
+Min (milliseconds) : 0.0
+S12 Starts the loop section.
+S12 READ SENSOR: S#14#0.0
+S12 PRINT [print, var]
+S12 Read DATA: S#14#0.0
+S12 RANDB: 0 11
+S12 is writing the message : "3" in its buffer.
+S1 Starts the loop section.
+S1 READ SENSOR: S#9#0.0
+S1 PRINT [print, var]
+S1 RANDB: 10 101
+S1 is writing the message : "50" in its buffer.
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "13" in its buffer.
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 8.0E-21
+Min (milliseconds) : 8.0E-21
+S12 is listening to the channel
+S12 the channel is free.
+S12 starts sending the message : "3".
+S12 has finished sending the message : "3" to the node: 
+S2 (radio: radio1) is receiving the message : "3" in its buffer.
+S12 starts delaying for 10000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 1.6E-20
+Min (milliseconds) : 8.0E-21
+S1 is listening to the channel
+S1 the channel is free.
+S1 starts sending the message : "50".
+S1 has finished sending the message : "50" to the node: 
+S2 (radio: radio1) is receiving the message : "50" in its buffer.
+S1 starts delaying for 5000.0 milliseconds
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "13".
+S11 has finished sending the message : "13" to the node: 
+S2 (radio: radio1) is receiving the message : "13" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 0.0031373333333333336
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "3" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 0.004226666666666667
+Min (milliseconds) : 0.0010893333333333332
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "50" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "13" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 1.0
+Min (milliseconds) : 0.9957733333333333
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "10" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.0
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "10".
+S11 has finished sending the message : "10" to the node: 
+S2 (radio: radio1) is receiving the message : "10" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 1.0042266666666666
+Min (milliseconds) : 0.004226666666666667
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "10" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 2.0
+Min (milliseconds) : 0.9957733333333333
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "9" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.0
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "9".
+S11 has finished sending the message : "9" to the node: 
+S2 (radio: radio1) is receiving the message : "9" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 2.0031373333333335
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "9" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 3.0
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "6" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.0
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "6".
+S11 has finished sending the message : "6" to the node: 
+S2 (radio: radio1) is receiving the message : "6" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 3.0031373333333335
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "6" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 4.0
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "14" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 4.0
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "14".
+S11 has finished sending the message : "14" to the node: 
+S2 (radio: radio1) is receiving the message : "14" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 4.004226666666667
+Min (milliseconds) : 0.004226666666666667
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "14" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 5.0
+Min (milliseconds) : 0.9957733333333331
+S1 has finished the delay.
+
+S1 Starts the loop section.
+S1 READ SENSOR: S#9#0.0
+S1 PRINT [print, var]
+S1 RANDB: 10 101
+S1 is writing the message : "67" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 5.0
+Min (milliseconds) : 1.6E-20
+S1 is listening to the channel
+S1 the channel is free.
+S1 starts sending the message : "67".
+S1 has finished sending the message : "67" to the node: 
+S2 (radio: radio1) is receiving the message : "67" in its buffer.
+S1 starts delaying for 5000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 5.0
+Min (milliseconds) : 2.220286049250313E-16
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "9" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 5.0
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "9".
+S11 has finished sending the message : "9" to the node: 
+S2 (radio: radio1) is receiving the message : "9" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 5.004226666666667
+Min (milliseconds) : 0.004226666666666445
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "67" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 5.003137333333334
+Min (milliseconds) : -0.0010893333333331112
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "9" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 6.000000000000001
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "10" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 6.000000000000001
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "10".
+S11 has finished sending the message : "10" to the node: 
+S2 (radio: radio1) is receiving the message : "10" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 6.004226666666668
+Min (milliseconds) : 0.004226666666666667
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "10" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 7.000000000000001
+Min (milliseconds) : 0.9957733333333333
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "7" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 7.000000000000001
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "7".
+S11 has finished sending the message : "7" to the node: 
+S2 (radio: radio1) is receiving the message : "7" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 7.003137333333334
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "7" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 8.0
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "6" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 8.0
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "6".
+S11 has finished sending the message : "6" to the node: 
+S2 (radio: radio1) is receiving the message : "6" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 8.003137333333333
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "6" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 9.0
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "6" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 9.0
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "6".
+S11 has finished sending the message : "6" to the node: 
+S2 (radio: radio1) is receiving the message : "6" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 9.003137333333333
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "6" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 9.999999999999998
+Min (milliseconds) : 0.9968626666666656
+S12 has finished the delay.
+S1 has finished the delay.
+
+S12 Starts the loop section.
+S12 READ SENSOR: S#14#0.0
+S12 PRINT [print, var]
+S12 Read DATA: S#14#0.0
+S12 RANDB: 0 11
+S12 is writing the message : "6" in its buffer.
+S1 Starts the loop section.
+S1 READ SENSOR: S#9#0.0
+S1 PRINT [print, var]
+S1 RANDB: 10 101
+S1 is writing the message : "88" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 9.999999999999998
+Min (milliseconds) : 8.0E-21
+S12 is listening to the channel
+S12 the channel is free.
+S12 starts sending the message : "6".
+S12 has finished sending the message : "6" to the node: 
+S2 (radio: radio1) is receiving the message : "6" in its buffer.
+S12 starts delaying for 10000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 9.999999999999998
+Min (milliseconds) : 8.0E-21
+S1 is listening to the channel
+S1 the channel is free.
+S1 starts sending the message : "88".
+S1 has finished sending the message : "88" to the node: 
+S2 (radio: radio1) is receiving the message : "88" in its buffer.
+S1 starts delaying for 5000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 10.0
+Min (milliseconds) : 1.1102070246251567E-15
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "11" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 10.0
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "11".
+S11 has finished sending the message : "11" to the node: 
+S2 (radio: radio1) is receiving the message : "11" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 10.003137333333333
+Min (milliseconds) : 0.0031373333333322233
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "6" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 10.004226666666666
+Min (milliseconds) : 0.0010893333333333332
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "88" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 10.004226666666668
+Min (milliseconds) : 1.1102230246251565E-15
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "11" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 11.000000000000002
+Min (milliseconds) : 0.9957733333333333
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "5" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 11.000000000000002
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "5".
+S11 has finished sending the message : "5" to the node: 
+S2 (radio: radio1) is receiving the message : "5" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 11.003137333333335
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "5" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 12.000000000000002
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "9" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 12.000000000000002
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "9".
+S11 has finished sending the message : "9" to the node: 
+S2 (radio: radio1) is receiving the message : "9" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 12.003137333333335
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "9" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 13.000000000000002
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "15" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 13.000000000000002
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "15".
+S11 has finished sending the message : "15" to the node: 
+S2 (radio: radio1) is receiving the message : "15" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 13.004226666666668
+Min (milliseconds) : 0.004226666666666667
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "15" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 14.000000000000002
+Min (milliseconds) : 0.9957733333333333
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "8" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 14.000000000000002
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "8".
+S11 has finished sending the message : "8" to the node: 
+S2 (radio: radio1) is receiving the message : "8" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 14.003137333333335
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "8" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 15.0
+Min (milliseconds) : 0.9968626666666657
+S1 has finished the delay.
+
+S1 Starts the loop section.
+S1 READ SENSOR: S#9#0.0
+S1 PRINT [print, var]
+S1 RANDB: 10 101
+S1 is writing the message : "89" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 15.0
+Min (milliseconds) : 1.6E-20
+S1 is listening to the channel
+S1 the channel is free.
+S1 starts sending the message : "89".
+S1 has finished sending the message : "89" to the node: 
+S2 (radio: radio1) is receiving the message : "89" in its buffer.
+S1 starts delaying for 5000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 15.000000000000002
+Min (milliseconds) : 9.991847221626408E-16
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "15" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 15.000000000000002
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "15".
+S11 has finished sending the message : "15" to the node: 
+S2 (radio: radio1) is receiving the message : "15" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 15.004226666666668
+Min (milliseconds) : 0.0042266666666656676
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "89" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 15.00422666666667
+Min (milliseconds) : 9.992007221626409E-16
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "15" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 16.000000000000004
+Min (milliseconds) : 0.9957733333333333
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "7" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 16.000000000000004
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "7".
+S11 has finished sending the message : "7" to the node: 
+S2 (radio: radio1) is receiving the message : "7" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 16.00313733333334
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "7" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 17.000000000000004
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "13" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 17.000000000000004
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "13".
+S11 has finished sending the message : "13" to the node: 
+S2 (radio: radio1) is receiving the message : "13" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 17.00422666666667
+Min (milliseconds) : 0.004226666666666667
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "13" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 18.000000000000004
+Min (milliseconds) : 0.9957733333333333
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "12" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 18.000000000000004
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "12".
+S11 has finished sending the message : "12" to the node: 
+S2 (radio: radio1) is receiving the message : "12" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 18.00422666666667
+Min (milliseconds) : 0.004226666666666667
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "12" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 19.000000000000004
+Min (milliseconds) : 0.9957733333333333
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "13" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 19.000000000000004
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "13".
+S11 has finished sending the message : "13" to the node: 
+S2 (radio: radio1) is receiving the message : "13" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 19.00422666666667
+Min (milliseconds) : 0.004226666666666667
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "13" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 20.0
+Min (milliseconds) : 0.9957733333333298
+S12 has finished the delay.
+
+S12 Starts the loop section.
+S12 READ SENSOR: S#14#0.0
+S12 PRINT [print, var]
+S12 Read DATA: S#14#0.0
+S12 RANDB: 0 11
+S12 is writing the message : "10" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 20.0
+Min (milliseconds) : 1.6E-20
+S12 is listening to the channel
+S12 the channel is free.
+S12 starts sending the message : "10".
+S12 has finished sending the message : "10" to the node: 
+S2 (radio: radio1) is receiving the message : "10" in its buffer.
+S12 starts delaying for 10000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 20.000000000000004
+Min (milliseconds) : 2.664519259100376E-15
+S1 has finished the delay.
+
+S1 Starts the loop section.
+S1 READ SENSOR: S#9#0.0
+S1 PRINT [print, var]
+S1 RANDB: 10 101
+S1 is writing the message : "24" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 20.000000000000004
+Min (milliseconds) : 1.6E-20
+S1 is listening to the channel
+S1 the channel is free.
+S1 starts sending the message : "24".
+S1 has finished sending the message : "24" to the node: 
+S2 (radio: radio1) is receiving the message : "24" in its buffer.
+S1 starts delaying for 5000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 20.000000000000004
+Min (milliseconds) : 7.771401172376096E-16
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "6" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 20.000000000000004
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "6".
+S11 has finished sending the message : "6" to the node: 
+S2 (radio: radio1) is receiving the message : "6" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 20.004226666666668
+Min (milliseconds) : 0.004226666666663225
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "10" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 20.00422666666667
+Min (milliseconds) : 2.6645352591003757E-15
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "24" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 20.00313733333334
+Min (milliseconds) : -0.001089333333332556
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "6" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 21.000000000000004
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "11" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 21.000000000000004
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "11".
+S11 has finished sending the message : "11" to the node: 
+S2 (radio: radio1) is receiving the message : "11" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 21.00422666666667
+Min (milliseconds) : 0.004226666666666667
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "11" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 22.000000000000004
+Min (milliseconds) : 0.9957733333333333
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "8" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 22.000000000000004
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "8".
+S11 has finished sending the message : "8" to the node: 
+S2 (radio: radio1) is receiving the message : "8" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 22.00313733333334
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "8" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 23.000000000000004
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "8" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 23.000000000000004
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "8".
+S11 has finished sending the message : "8" to the node: 
+S2 (radio: radio1) is receiving the message : "8" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 23.00313733333334
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "8" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 24.000000000000004
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "14" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 24.000000000000004
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "14".
+S11 has finished sending the message : "14" to the node: 
+S2 (radio: radio1) is receiving the message : "14" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 24.00422666666667
+Min (milliseconds) : 0.004226666666666667
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "14" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 25.000000000000004
+Min (milliseconds) : 0.9957733333333322
+S1 has finished the delay.
+
+S1 Starts the loop section.
+S1 READ SENSOR: S#9#0.0
+S1 PRINT [print, var]
+S1 RANDB: 10 101
+S1 is writing the message : "49" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 25.000000000000004
+Min (milliseconds) : 1.6E-20
+S1 is listening to the channel
+S1 the channel is free.
+S1 starts sending the message : "49".
+S1 has finished sending the message : "49" to the node: 
+S2 (radio: radio1) is receiving the message : "49" in its buffer.
+S1 starts delaying for 5000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 25.000000000000004
+Min (milliseconds) : 1.1102070246251565E-15
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "9" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 25.000000000000004
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "9".
+S11 has finished sending the message : "9" to the node: 
+S2 (radio: radio1) is receiving the message : "9" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 25.004226666666668
+Min (milliseconds) : 0.0042266666666655565
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "49" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 25.003137333333335
+Min (milliseconds) : -0.001089333333332223
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "9" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 26.0
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "6" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 26.0
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "6".
+S11 has finished sending the message : "6" to the node: 
+S2 (radio: radio1) is receiving the message : "6" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 26.003137333333335
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "6" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 27.0
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "14" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 27.0
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "14".
+S11 has finished sending the message : "14" to the node: 
+S2 (radio: radio1) is receiving the message : "14" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 27.004226666666668
+Min (milliseconds) : 0.004226666666666667
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "14" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 28.0
+Min (milliseconds) : 0.9957733333333333
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "15" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 28.0
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "15".
+S11 has finished sending the message : "15" to the node: 
+S2 (radio: radio1) is receiving the message : "15" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 28.004226666666668
+Min (milliseconds) : 0.004226666666666667
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "15" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 29.0
+Min (milliseconds) : 0.9957733333333333
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "7" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 29.0
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "7".
+S11 has finished sending the message : "7" to the node: 
+S2 (radio: radio1) is receiving the message : "7" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 29.003137333333335
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "7" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 30.0
+Min (milliseconds) : 0.996862666666665
+S12 has finished the delay.
+S1 has finished the delay.
+
+S12 Starts the loop section.
+S12 READ SENSOR: S#14#0.0
+S12 PRINT [print, var]
+S12 Read DATA: S#14#0.0
+S12 RANDB: 0 11
+S12 is writing the message : "1" in its buffer.
+S1 Starts the loop section.
+S1 READ SENSOR: S#9#0.0
+S1 PRINT [print, var]
+S1 RANDB: 10 101
+S1 is writing the message : "87" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 30.0
+Min (milliseconds) : 8.0E-21
+S12 is listening to the channel
+S12 the channel is free.
+S12 starts sending the message : "1".
+S12 has finished sending the message : "1" to the node: 
+S2 (radio: radio1) is receiving the message : "1" in its buffer.
+S12 starts delaying for 10000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 30.0
+Min (milliseconds) : 8.0E-21
+S1 is listening to the channel
+S1 the channel is free.
+S1 starts sending the message : "87".
+S1 has finished sending the message : "87" to the node: 
+S2 (radio: radio1) is receiving the message : "87" in its buffer.
+S1 starts delaying for 5000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 30.0
+Min (milliseconds) : 1.665318536937735E-15
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "8" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 30.0
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "8".
+S11 has finished sending the message : "8" to the node: 
+S2 (radio: radio1) is receiving the message : "8" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 30.00313733333333
+Min (milliseconds) : 0.0031373333333316682
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "1" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 30.004226666666664
+Min (milliseconds) : 0.0010893333333333332
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "87" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 30.00313733333333
+Min (milliseconds) : -0.0010893333333316679
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "8" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 30.999999999999996
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "6" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 30.999999999999996
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "6".
+S11 has finished sending the message : "6" to the node: 
+S2 (radio: radio1) is receiving the message : "6" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 31.00313733333333
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "6" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 31.999999999999996
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "6" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 31.999999999999996
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "6".
+S11 has finished sending the message : "6" to the node: 
+S2 (radio: radio1) is receiving the message : "6" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 32.00313733333333
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "6" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 32.99999999999999
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "8" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 32.99999999999999
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "8".
+S11 has finished sending the message : "8" to the node: 
+S2 (radio: radio1) is receiving the message : "8" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 33.00313733333333
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "8" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 33.99999999999999
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "12" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 33.99999999999999
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "12".
+S11 has finished sending the message : "12" to the node: 
+S2 (radio: radio1) is receiving the message : "12" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 34.00422666666666
+Min (milliseconds) : 0.004226666666666667
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "12" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 34.99999999999999
+Min (milliseconds) : 0.9957733333333313
+S1 has finished the delay.
+
+S1 Starts the loop section.
+S1 READ SENSOR: S#9#0.0
+S1 PRINT [print, var]
+S1 RANDB: 10 101
+S1 is writing the message : "36" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 34.99999999999999
+Min (milliseconds) : 1.6E-20
+S1 is listening to the channel
+S1 the channel is free.
+S1 starts sending the message : "36".
+S1 has finished sending the message : "36" to the node: 
+S2 (radio: radio1) is receiving the message : "36" in its buffer.
+S1 starts delaying for 5000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 34.99999999999999
+Min (milliseconds) : 1.998385444325282E-15
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "6" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 34.99999999999999
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "6".
+S11 has finished sending the message : "6" to the node: 
+S2 (radio: radio1) is receiving the message : "6" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 35.00422666666666
+Min (milliseconds) : 0.004226666666664668
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "36" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 35.00313733333333
+Min (milliseconds) : -0.0010893333333313348
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "6" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 35.99999999999999
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "14" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 35.99999999999999
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "14".
+S11 has finished sending the message : "14" to the node: 
+S2 (radio: radio1) is receiving the message : "14" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 36.00422666666666
+Min (milliseconds) : 0.004226666666666667
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "14" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 36.99999999999999
+Min (milliseconds) : 0.9957733333333333
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "8" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 36.99999999999999
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "8".
+S11 has finished sending the message : "8" to the node: 
+S2 (radio: radio1) is receiving the message : "8" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 37.00313733333333
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "8" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 37.99999999999999
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "8" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 37.99999999999999
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "8".
+S11 has finished sending the message : "8" to the node: 
+S2 (radio: radio1) is receiving the message : "8" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 38.00313733333333
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "8" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 38.99999999999999
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "6" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 38.99999999999999
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "6".
+S11 has finished sending the message : "6" to the node: 
+S2 (radio: radio1) is receiving the message : "6" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 39.00313733333333
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "6" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 39.99999999999999
+Min (milliseconds) : 0.9968626666666638
+S12 has finished the delay.
+S1 has finished the delay.
+
+S12 Starts the loop section.
+S12 READ SENSOR: S#14#0.0
+S12 PRINT [print, var]
+S12 Read DATA: S#14#0.0
+S12 RANDB: 0 11
+S12 is writing the message : "9" in its buffer.
+S1 Starts the loop section.
+S1 READ SENSOR: S#9#0.0
+S1 PRINT [print, var]
+S1 RANDB: 10 101
+S1 is writing the message : "98" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 39.99999999999999
+Min (milliseconds) : 8.0E-21
+S12 is listening to the channel
+S12 the channel is free.
+S12 starts sending the message : "9".
+S12 has finished sending the message : "9" to the node: 
+S2 (radio: radio1) is receiving the message : "9" in its buffer.
+S12 starts delaying for 10000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 39.99999999999999
+Min (milliseconds) : 8.0E-21
+S1 is listening to the channel
+S1 the channel is free.
+S1 starts sending the message : "98".
+S1 has finished sending the message : "98" to the node: 
+S2 (radio: radio1) is receiving the message : "98" in its buffer.
+S1 starts delaying for 5000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 39.99999999999999
+Min (milliseconds) : 2.8865638640254067E-15
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "12" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 39.99999999999999
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "12".
+S11 has finished sending the message : "12" to the node: 
+S2 (radio: radio1) is receiving the message : "12" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 40.00313733333332
+Min (milliseconds) : 0.003137333333330447
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "9" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 40.00422666666665
+Min (milliseconds) : 0.0010893333333333332
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "98" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 40.00422666666665
+Min (milliseconds) : 2.886579864025407E-15
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "12" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 40.999999999999986
+Min (milliseconds) : 0.9957733333333333
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "7" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 40.999999999999986
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "7".
+S11 has finished sending the message : "7" to the node: 
+S2 (radio: radio1) is receiving the message : "7" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 41.00313733333332
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "7" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 41.999999999999986
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "9" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 41.999999999999986
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "9".
+S11 has finished sending the message : "9" to the node: 
+S2 (radio: radio1) is receiving the message : "9" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 42.00313733333332
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "9" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 42.999999999999986
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "10" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 42.999999999999986
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "10".
+S11 has finished sending the message : "10" to the node: 
+S2 (radio: radio1) is receiving the message : "10" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 43.00422666666665
+Min (milliseconds) : 0.004226666666666667
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "10" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 43.999999999999986
+Min (milliseconds) : 0.9957733333333333
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "10" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 43.999999999999986
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "10".
+S11 has finished sending the message : "10" to the node: 
+S2 (radio: radio1) is receiving the message : "10" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 44.00422666666665
+Min (milliseconds) : 0.004226666666666667
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "10" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 44.999999999999986
+Min (milliseconds) : 0.9957733333333305
+S1 has finished the delay.
+
+S1 Starts the loop section.
+S1 READ SENSOR: S#9#0.0
+S1 PRINT [print, var]
+S1 RANDB: 10 101
+S1 is writing the message : "89" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 44.999999999999986
+Min (milliseconds) : 1.6E-20
+S1 is listening to the channel
+S1 the channel is free.
+S1 starts sending the message : "89".
+S1 has finished sending the message : "89" to the node: 
+S2 (radio: radio1) is receiving the message : "89" in its buffer.
+S1 starts delaying for 5000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 44.999999999999986
+Min (milliseconds) : 2.7755415615628915E-15
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "9" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 44.999999999999986
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "9".
+S11 has finished sending the message : "9" to the node: 
+S2 (radio: radio1) is receiving the message : "9" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 45.004226666666646
+Min (milliseconds) : 0.004226666666663891
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "89" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 45.003137333333314
+Min (milliseconds) : -0.0010893333333305577
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "9" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 45.99999999999998
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "15" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 45.99999999999998
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "15".
+S11 has finished sending the message : "15" to the node: 
+S2 (radio: radio1) is receiving the message : "15" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 46.004226666666646
+Min (milliseconds) : 0.004226666666666667
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "15" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 46.99999999999998
+Min (milliseconds) : 0.9957733333333333
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "10" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 46.99999999999998
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "10".
+S11 has finished sending the message : "10" to the node: 
+S2 (radio: radio1) is receiving the message : "10" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 47.004226666666646
+Min (milliseconds) : 0.004226666666666667
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "10" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 47.99999999999998
+Min (milliseconds) : 0.9957733333333333
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "8" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 47.99999999999998
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "8".
+S11 has finished sending the message : "8" to the node: 
+S2 (radio: radio1) is receiving the message : "8" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 48.003137333333314
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "8" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 48.99999999999998
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "12" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 48.99999999999998
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "12".
+S11 has finished sending the message : "12" to the node: 
+S2 (radio: radio1) is receiving the message : "12" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 49.004226666666646
+Min (milliseconds) : 0.004226666666666667
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "12" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 49.99999999999997
+Min (milliseconds) : 0.9957733333333271
+S12 has finished the delay.
+
+S12 Starts the loop section.
+S12 READ SENSOR: S#14#0.0
+S12 PRINT [print, var]
+S12 Read DATA: S#14#0.0
+S12 RANDB: 0 11
+S12 is writing the message : "0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 49.99999999999997
+Min (milliseconds) : 8.0E-21
+S12 is listening to the channel
+S12 the channel is free.
+S12 starts sending the message : "0".
+S12 has finished sending the message : "0" to the node: 
+S2 (radio: radio1) is receiving the message : "0" in its buffer.
+S12 starts delaying for 10000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 49.99999999999997
+Min (milliseconds) : 2.6645272591003756E-15
+S1 has finished the delay.
+
+S1 Starts the loop section.
+S1 READ SENSOR: S#9#0.0
+S1 PRINT [print, var]
+S1 RANDB: 10 101
+S1 is writing the message : "26" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 49.99999999999997
+Min (milliseconds) : 1.6E-20
+S1 is listening to the channel
+S1 the channel is free.
+S1 starts sending the message : "26".
+S1 has finished sending the message : "26" to the node: 
+S2 (radio: radio1) is receiving the message : "26" in its buffer.
+S1 starts delaying for 5000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 49.99999999999997
+Min (milliseconds) : 3.552697678800501E-15
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "9" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 49.99999999999997
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "9".
+S11 has finished sending the message : "9" to the node: 
+S2 (radio: radio1) is receiving the message : "9" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 50.0031373333333
+Min (milliseconds) : 0.0031373333333271163
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "0" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 50.00422666666663
+Min (milliseconds) : 0.0010893333333359977
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "26" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 50.0031373333333
+Min (milliseconds) : -0.0010893333333297805
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "9" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 50.999999999999964
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "9" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 50.999999999999964
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "9".
+S11 has finished sending the message : "9" to the node: 
+S2 (radio: radio1) is receiving the message : "9" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 51.0031373333333
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "9" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 51.999999999999964
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "5" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 51.999999999999964
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "5".
+S11 has finished sending the message : "5" to the node: 
+S2 (radio: radio1) is receiving the message : "5" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 52.0031373333333
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "5" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 52.999999999999964
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "15" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 52.999999999999964
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "15".
+S11 has finished sending the message : "15" to the node: 
+S2 (radio: radio1) is receiving the message : "15" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 53.00422666666663
+Min (milliseconds) : 0.004226666666666667
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "15" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 53.999999999999964
+Min (milliseconds) : 0.9957733333333333
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "15" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 53.999999999999964
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "15".
+S11 has finished sending the message : "15" to the node: 
+S2 (radio: radio1) is receiving the message : "15" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 54.00422666666663
+Min (milliseconds) : 0.004226666666666667
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "15" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 54.999999999999964
+Min (milliseconds) : 0.9957733333333296
+S1 has finished the delay.
+
+S1 Starts the loop section.
+S1 READ SENSOR: S#9#0.0
+S1 PRINT [print, var]
+S1 RANDB: 10 101
+S1 is writing the message : "80" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 54.999999999999964
+Min (milliseconds) : 1.6E-20
+S1 is listening to the channel
+S1 the channel is free.
+S1 starts sending the message : "80".
+S1 has finished sending the message : "80" to the node: 
+S2 (radio: radio1) is receiving the message : "80" in its buffer.
+S1 starts delaying for 5000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 54.99999999999997
+Min (milliseconds) : 3.663719981263016E-15
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "8" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 54.99999999999997
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "8".
+S11 has finished sending the message : "8" to the node: 
+S2 (radio: radio1) is receiving the message : "8" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 55.00422666666663
+Min (milliseconds) : 0.004226666666663003
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "80" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 55.0031373333333
+Min (milliseconds) : -0.0010893333333296695
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "8" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 55.999999999999964
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "9" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 55.999999999999964
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "9".
+S11 has finished sending the message : "9" to the node: 
+S2 (radio: radio1) is receiving the message : "9" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 56.0031373333333
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "9" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 56.999999999999964
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "11" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 56.999999999999964
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "11".
+S11 has finished sending the message : "11" to the node: 
+S2 (radio: radio1) is receiving the message : "11" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 57.00422666666663
+Min (milliseconds) : 0.004226666666666667
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "11" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 57.999999999999964
+Min (milliseconds) : 0.9957733333333333
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "15" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 57.999999999999964
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "15".
+S11 has finished sending the message : "15" to the node: 
+S2 (radio: radio1) is receiving the message : "15" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 58.00422666666663
+Min (milliseconds) : 0.004226666666666667
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "15" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 58.999999999999964
+Min (milliseconds) : 0.9957733333333333
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "10" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 58.999999999999964
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "10".
+S11 has finished sending the message : "10" to the node: 
+S2 (radio: radio1) is receiving the message : "10" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 59.00422666666663
+Min (milliseconds) : 0.004226666666666667
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "10" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 59.99999999999996
+Min (milliseconds) : 0.9957733333333254
+S12 has finished the delay.
+
+S12 Starts the loop section.
+S12 READ SENSOR: S#14#0.0
+S12 PRINT [print, var]
+S12 Read DATA: S#14#0.0
+S12 RANDB: 0 11
+S12 is writing the message : "0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 59.99999999999996
+Min (milliseconds) : 8.0E-21
+S12 is listening to the channel
+S12 the channel is free.
+S12 starts sending the message : "0".
+S12 has finished sending the message : "0" to the node: 
+S2 (radio: radio1) is receiving the message : "0" in its buffer.
+S12 starts delaying for 10000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 59.99999999999996
+Min (milliseconds) : 3.5527056788005008E-15
+S1 has finished the delay.
+
+S1 Starts the loop section.
+S1 READ SENSOR: S#9#0.0
+S1 PRINT [print, var]
+S1 RANDB: 10 101
+S1 is writing the message : "38" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 59.99999999999996
+Min (milliseconds) : 1.6E-20
+S1 is listening to the channel
+S1 the channel is free.
+S1 starts sending the message : "38".
+S1 has finished sending the message : "38" to the node: 
+S2 (radio: radio1) is receiving the message : "38" in its buffer.
+S1 starts delaying for 5000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 59.999999999999964
+Min (milliseconds) : 4.32985379603811E-15
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "8" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 59.999999999999964
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "8".
+S11 has finished sending the message : "8" to the node: 
+S2 (radio: radio1) is receiving the message : "8" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 60.00313733333329
+Min (milliseconds) : 0.003137333333325451
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "0" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 60.00422666666663
+Min (milliseconds) : 0.001089333333336886
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "38" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 60.00313733333331
+Min (milliseconds) : -0.0010893333333290033
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "8" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 60.99999999999997
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "8" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 60.99999999999997
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "8".
+S11 has finished sending the message : "8" to the node: 
+S2 (radio: radio1) is receiving the message : "8" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 61.00313733333331
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "8" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 61.99999999999997
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "11" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 61.99999999999997
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "11".
+S11 has finished sending the message : "11" to the node: 
+S2 (radio: radio1) is receiving the message : "11" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 62.00422666666664
+Min (milliseconds) : 0.004226666666666667
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "11" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 62.99999999999997
+Min (milliseconds) : 0.9957733333333333
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "14" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 62.99999999999997
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "14".
+S11 has finished sending the message : "14" to the node: 
+S2 (radio: radio1) is receiving the message : "14" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 63.00422666666664
+Min (milliseconds) : 0.004226666666666667
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "14" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 63.99999999999997
+Min (milliseconds) : 0.9957733333333333
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "11" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 63.99999999999997
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "11".
+S11 has finished sending the message : "11" to the node: 
+S2 (radio: radio1) is receiving the message : "11" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 64.00422666666664
+Min (milliseconds) : 0.004226666666666667
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "11" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 64.99999999999997
+Min (milliseconds) : 0.995773333333329
+S1 has finished the delay.
+
+S1 Starts the loop section.
+S1 READ SENSOR: S#9#0.0
+S1 PRINT [print, var]
+S1 RANDB: 10 101
+S1 is writing the message : "76" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 64.99999999999997
+Min (milliseconds) : 1.6E-20
+S1 is listening to the channel
+S1 the channel is free.
+S1 starts sending the message : "76".
+S1 has finished sending the message : "76" to the node: 
+S2 (radio: radio1) is receiving the message : "76" in its buffer.
+S1 starts delaying for 5000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 64.99999999999997
+Min (milliseconds) : 4.32985379603811E-15
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "9" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 64.99999999999997
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "9".
+S11 has finished sending the message : "9" to the node: 
+S2 (radio: radio1) is receiving the message : "9" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 65.00422666666664
+Min (milliseconds) : 0.004226666666662337
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "76" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 65.00313733333331
+Min (milliseconds) : -0.0010893333333290033
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "9" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 65.99999999999999
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "15" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 65.99999999999999
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "15".
+S11 has finished sending the message : "15" to the node: 
+S2 (radio: radio1) is receiving the message : "15" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 66.00422666666665
+Min (milliseconds) : 0.004226666666666667
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "15" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 66.99999999999999
+Min (milliseconds) : 0.9957733333333333
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "10" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 66.99999999999999
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "10".
+S11 has finished sending the message : "10" to the node: 
+S2 (radio: radio1) is receiving the message : "10" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 67.00422666666665
+Min (milliseconds) : 0.004226666666666667
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "10" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 67.99999999999999
+Min (milliseconds) : 0.9957733333333333
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "15" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 67.99999999999999
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "15".
+S11 has finished sending the message : "15" to the node: 
+S2 (radio: radio1) is receiving the message : "15" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 68.00422666666665
+Min (milliseconds) : 0.004226666666666667
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "15" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 68.99999999999999
+Min (milliseconds) : 0.9957733333333333
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "5" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 68.99999999999999
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "5".
+S11 has finished sending the message : "5" to the node: 
+S2 (radio: radio1) is receiving the message : "5" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 69.00313733333331
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "5" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 69.99999999999997
+Min (milliseconds) : 0.9968626666666597
+S12 has finished the delay.
+
+S12 Starts the loop section.
+S12 READ SENSOR: S#14#0.0
+S12 PRINT [print, var]
+S12 Read DATA: S#14#0.0
+S12 RANDB: 0 11
+S12 is writing the message : "9" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 69.99999999999997
+Min (milliseconds) : 8.0E-21
+S12 is listening to the channel
+S12 the channel is free.
+S12 starts sending the message : "9".
+S12 has finished sending the message : "9" to the node: 
+S2 (radio: radio1) is receiving the message : "9" in its buffer.
+S12 starts delaying for 10000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 69.99999999999997
+Min (milliseconds) : 2.6645272591003756E-15
+S1 has finished the delay.
+
+S1 Starts the loop section.
+S1 READ SENSOR: S#9#0.0
+S1 PRINT [print, var]
+S1 RANDB: 10 101
+S1 is writing the message : "63" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 69.99999999999997
+Min (milliseconds) : 1.6E-20
+S1 is listening to the channel
+S1 the channel is free.
+S1 starts sending the message : "63".
+S1 has finished sending the message : "63" to the node: 
+S2 (radio: radio1) is receiving the message : "63" in its buffer.
+S1 starts delaying for 5000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 69.99999999999997
+Min (milliseconds) : 4.32985379603811E-15
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "5" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 69.99999999999997
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "5".
+S11 has finished sending the message : "5" to the node: 
+S2 (radio: radio1) is receiving the message : "5" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 70.0031373333333
+Min (milliseconds) : 0.003137333333326339
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "9" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 70.00422666666664
+Min (milliseconds) : 0.0010893333333359977
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "63" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 70.00313733333331
+Min (milliseconds) : -0.0010893333333290033
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "5" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 70.99999999999999
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "11" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 70.99999999999999
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "11".
+S11 has finished sending the message : "11" to the node: 
+S2 (radio: radio1) is receiving the message : "11" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 71.00422666666665
+Min (milliseconds) : 0.004226666666666667
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "11" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 71.99999999999999
+Min (milliseconds) : 0.9957733333333333
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "14" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 71.99999999999999
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "14".
+S11 has finished sending the message : "14" to the node: 
+S2 (radio: radio1) is receiving the message : "14" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 72.00422666666665
+Min (milliseconds) : 0.004226666666666667
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "14" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 72.99999999999999
+Min (milliseconds) : 0.9957733333333333
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "9" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 72.99999999999999
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "9".
+S11 has finished sending the message : "9" to the node: 
+S2 (radio: radio1) is receiving the message : "9" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 73.00313733333331
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "9" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 73.99999999999999
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "9" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 73.99999999999999
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "9".
+S11 has finished sending the message : "9" to the node: 
+S2 (radio: radio1) is receiving the message : "9" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 74.00313733333331
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "9" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 74.99999999999997
+Min (milliseconds) : 0.9968626666666622
+S1 has finished the delay.
+
+S1 Starts the loop section.
+S1 READ SENSOR: S#9#0.0
+S1 PRINT [print, var]
+S1 RANDB: 10 101
+S1 is writing the message : "82" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 74.99999999999997
+Min (milliseconds) : 1.6E-20
+S1 is listening to the channel
+S1 the channel is free.
+S1 starts sending the message : "82".
+S1 has finished sending the message : "82" to the node: 
+S2 (radio: radio1) is receiving the message : "82" in its buffer.
+S1 starts delaying for 5000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 74.99999999999997
+Min (milliseconds) : 4.440876098500626E-15
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "10" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 74.99999999999997
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "10".
+S11 has finished sending the message : "10" to the node: 
+S2 (radio: radio1) is receiving the message : "10" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 75.00422666666664
+Min (milliseconds) : 0.004226666666662226
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "82" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 75.00422666666664
+Min (milliseconds) : 4.440892098500626E-15
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "10" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 75.99999999999997
+Min (milliseconds) : 0.9957733333333333
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "12" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 75.99999999999997
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "12".
+S11 has finished sending the message : "12" to the node: 
+S2 (radio: radio1) is receiving the message : "12" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 76.00422666666664
+Min (milliseconds) : 0.004226666666666667
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "12" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 76.99999999999997
+Min (milliseconds) : 0.9957733333333333
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "5" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 76.99999999999997
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "5".
+S11 has finished sending the message : "5" to the node: 
+S2 (radio: radio1) is receiving the message : "5" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 77.0031373333333
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "5" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 77.99999999999997
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "9" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 77.99999999999997
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "9".
+S11 has finished sending the message : "9" to the node: 
+S2 (radio: radio1) is receiving the message : "9" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 78.0031373333333
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "9" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 78.99999999999997
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "9" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 78.99999999999997
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "9".
+S11 has finished sending the message : "9" to the node: 
+S2 (radio: radio1) is receiving the message : "9" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 79.0031373333333
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "9" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 79.99999999999996
+Min (milliseconds) : 0.996862666666662
+S12 has finished the delay.
+S1 has finished the delay.
+
+S12 Starts the loop section.
+S12 READ SENSOR: S#14#0.0
+S12 PRINT [print, var]
+S12 Read DATA: S#14#0.0
+S12 RANDB: 0 11
+S12 is writing the message : "8" in its buffer.
+S1 Starts the loop section.
+S1 READ SENSOR: S#9#0.0
+S1 PRINT [print, var]
+S1 RANDB: 10 101
+S1 is writing the message : "23" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 79.99999999999996
+Min (milliseconds) : 8.0E-21
+S12 is listening to the channel
+S12 the channel is free.
+S12 starts sending the message : "8".
+S12 has finished sending the message : "8" to the node: 
+S2 (radio: radio1) is receiving the message : "8" in its buffer.
+S12 starts delaying for 10000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 79.99999999999996
+Min (milliseconds) : 8.0E-21
+S1 is listening to the channel
+S1 the channel is free.
+S1 starts sending the message : "23".
+S1 has finished sending the message : "23" to the node: 
+S2 (radio: radio1) is receiving the message : "23" in its buffer.
+S1 starts delaying for 5000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 79.99999999999996
+Min (milliseconds) : 4.662920703425657E-15
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "10" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 79.99999999999996
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "10".
+S11 has finished sending the message : "10" to the node: 
+S2 (radio: radio1) is receiving the message : "10" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 80.00313733333329
+Min (milliseconds) : 0.0031373333333286706
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "8" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 80.00422666666663
+Min (milliseconds) : 0.0010893333333333332
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "23" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 80.00422666666663
+Min (milliseconds) : 4.6629367034256575E-15
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "10" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 80.99999999999996
+Min (milliseconds) : 0.9957733333333333
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "9" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 80.99999999999996
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "9".
+S11 has finished sending the message : "9" to the node: 
+S2 (radio: radio1) is receiving the message : "9" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 81.00313733333329
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "9" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 81.99999999999996
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "11" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 81.99999999999996
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "11".
+S11 has finished sending the message : "11" to the node: 
+S2 (radio: radio1) is receiving the message : "11" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 82.00422666666663
+Min (milliseconds) : 0.004226666666666667
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "11" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 82.99999999999996
+Min (milliseconds) : 0.9957733333333333
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "13" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 82.99999999999996
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "13".
+S11 has finished sending the message : "13" to the node: 
+S2 (radio: radio1) is receiving the message : "13" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 83.00422666666663
+Min (milliseconds) : 0.004226666666666667
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "13" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 83.99999999999996
+Min (milliseconds) : 0.9957733333333333
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "13" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 83.99999999999996
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "13".
+S11 has finished sending the message : "13" to the node: 
+S2 (radio: radio1) is receiving the message : "13" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 84.00422666666663
+Min (milliseconds) : 0.004226666666666667
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "13" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 84.99999999999996
+Min (milliseconds) : 0.995773333333329
+S1 has finished the delay.
+
+S1 Starts the loop section.
+S1 READ SENSOR: S#9#0.0
+S1 PRINT [print, var]
+S1 RANDB: 10 101
+S1 is writing the message : "42" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 84.99999999999996
+Min (milliseconds) : 1.6E-20
+S1 is listening to the channel
+S1 the channel is free.
+S1 starts sending the message : "42".
+S1 has finished sending the message : "42" to the node: 
+S2 (radio: radio1) is receiving the message : "42" in its buffer.
+S1 starts delaying for 5000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 84.99999999999996
+Min (milliseconds) : 4.32985379603811E-15
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "5" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 84.99999999999996
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "5".
+S11 has finished sending the message : "5" to the node: 
+S2 (radio: radio1) is receiving the message : "5" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 85.00422666666663
+Min (milliseconds) : 0.004226666666662337
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "42" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 85.0031373333333
+Min (milliseconds) : -0.0010893333333290033
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "5" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 85.99999999999997
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "9" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 85.99999999999997
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "9".
+S11 has finished sending the message : "9" to the node: 
+S2 (radio: radio1) is receiving the message : "9" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 86.0031373333333
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "9" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 86.99999999999997
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "5" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 86.99999999999997
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "5".
+S11 has finished sending the message : "5" to the node: 
+S2 (radio: radio1) is receiving the message : "5" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 87.0031373333333
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "5" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 87.99999999999997
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "7" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 87.99999999999997
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "7".
+S11 has finished sending the message : "7" to the node: 
+S2 (radio: radio1) is receiving the message : "7" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 88.0031373333333
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "7" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 88.99999999999997
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "11" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 88.99999999999997
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "11".
+S11 has finished sending the message : "11" to the node: 
+S2 (radio: radio1) is receiving the message : "11" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 89.00422666666664
+Min (milliseconds) : 0.004226666666666667
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "11" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 89.99999999999997
+Min (milliseconds) : 0.995773333333326
+S12 has finished the delay.
+
+S12 Starts the loop section.
+S12 READ SENSOR: S#14#0.0
+S12 PRINT [print, var]
+S12 Read DATA: S#14#0.0
+S12 RANDB: 0 11
+S12 is writing the message : "0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 89.99999999999997
+Min (milliseconds) : 8.0E-21
+S12 is listening to the channel
+S12 the channel is free.
+S12 starts sending the message : "0".
+S12 has finished sending the message : "0" to the node: 
+S2 (radio: radio1) is receiving the message : "0" in its buffer.
+S12 starts delaying for 10000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 89.99999999999997
+Min (milliseconds) : 2.6645272591003756E-15
+S1 has finished the delay.
+
+S1 Starts the loop section.
+S1 READ SENSOR: S#9#0.0
+S1 PRINT [print, var]
+S1 RANDB: 10 101
+S1 is writing the message : "25" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 89.99999999999997
+Min (milliseconds) : 1.6E-20
+S1 is listening to the channel
+S1 the channel is free.
+S1 starts sending the message : "25".
+S1 has finished sending the message : "25" to the node: 
+S2 (radio: radio1) is receiving the message : "25" in its buffer.
+S1 starts delaying for 5000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 89.99999999999997
+Min (milliseconds) : 4.662920703425657E-15
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "10" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 89.99999999999997
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "10".
+S11 has finished sending the message : "10" to the node: 
+S2 (radio: radio1) is receiving the message : "10" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 90.0031373333333
+Min (milliseconds) : 0.003137333333326006
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "0" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 90.00422666666664
+Min (milliseconds) : 0.0010893333333359977
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "25" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 90.00422666666664
+Min (milliseconds) : 4.6629367034256575E-15
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "10" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 90.99999999999997
+Min (milliseconds) : 0.9957733333333333
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "13" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 90.99999999999997
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "13".
+S11 has finished sending the message : "13" to the node: 
+S2 (radio: radio1) is receiving the message : "13" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 91.00422666666664
+Min (milliseconds) : 0.004226666666666667
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "13" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 91.99999999999997
+Min (milliseconds) : 0.9957733333333333
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "8" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 91.99999999999997
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "8".
+S11 has finished sending the message : "8" to the node: 
+S2 (radio: radio1) is receiving the message : "8" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 92.0031373333333
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "8" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 92.99999999999997
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "10" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 92.99999999999997
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "10".
+S11 has finished sending the message : "10" to the node: 
+S2 (radio: radio1) is receiving the message : "10" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 93.00422666666664
+Min (milliseconds) : 0.004226666666666667
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "10" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 93.99999999999997
+Min (milliseconds) : 0.9957733333333333
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "9" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 93.99999999999997
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "9".
+S11 has finished sending the message : "9" to the node: 
+S2 (radio: radio1) is receiving the message : "9" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 94.0031373333333
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "9" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 94.99999999999996
+Min (milliseconds) : 0.9968626666666621
+S1 has finished the delay.
+
+S1 Starts the loop section.
+S1 READ SENSOR: S#9#0.0
+S1 PRINT [print, var]
+S1 RANDB: 10 101
+S1 is writing the message : "54" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 94.99999999999996
+Min (milliseconds) : 1.6E-20
+S1 is listening to the channel
+S1 the channel is free.
+S1 starts sending the message : "54".
+S1 has finished sending the message : "54" to the node: 
+S2 (radio: radio1) is receiving the message : "54" in its buffer.
+S1 starts delaying for 5000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 94.99999999999996
+Min (milliseconds) : 4.5518984009631415E-15
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "12" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 94.99999999999996
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "12".
+S11 has finished sending the message : "12" to the node: 
+S2 (radio: radio1) is receiving the message : "12" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 95.00422666666663
+Min (milliseconds) : 0.004226666666662115
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "54" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 95.00422666666663
+Min (milliseconds) : 4.551914400963142E-15
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "12" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 95.99999999999996
+Min (milliseconds) : 0.9957733333333333
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "8" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 95.99999999999996
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "8".
+S11 has finished sending the message : "8" to the node: 
+S2 (radio: radio1) is receiving the message : "8" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 96.00313733333329
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "8" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 96.99999999999996
+Min (milliseconds) : 0.9968626666666667
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "13" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 96.99999999999996
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "13".
+S11 has finished sending the message : "13" to the node: 
+S2 (radio: radio1) is receiving the message : "13" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 97.00422666666663
+Min (milliseconds) : 0.004226666666666667
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "13" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 97.99999999999996
+Min (milliseconds) : 0.9957733333333333
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "14" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 97.99999999999996
+Min (milliseconds) : 1.6E-20
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "14".
+S11 has finished sending the message : "14" to the node: 
+S2 (radio: radio1) is receiving the message : "14" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 98.00422666666663
+Min (milliseconds) : 0.004226666666666667
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "14" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 98.99999999999996
+Min (milliseconds) : 0.9957733333333333
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "9" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 98.99999999999996
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "9".
+S11 has finished sending the message : "9" to the node: 
+S2 (radio: radio1) is receiving the message : "9" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 99.00313733333329
+Min (milliseconds) : 0.0031373333333333336
+S2 Buffer available, exit waiting.
+S2 is reading from its buffer "9" and puts it in y
+S2 PRINT [print, y]
+S2 MARK
+S2 Starts the loop section.
+S2 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 99.99999999999994
+Min (milliseconds) : 0.9968626666666588
+S12 has finished the delay.
+
+S12 Starts the loop section.
+S12 READ SENSOR: S#14#0.0
+S12 PRINT [print, var]
+S12 Read DATA: S#14#0.0
+S12 RANDB: 0 11
+S12 is writing the message : "8" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 99.99999999999994
+Min (milliseconds) : 8.0E-21
+S12 is listening to the channel
+S12 the channel is free.
+S12 starts sending the message : "8".
+S12 has finished sending the message : "8" to the node: 
+S2 (radio: radio1) is receiving the message : "8" in its buffer.
+S12 starts delaying for 10000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 99.99999999999994
+Min (milliseconds) : 3.5527056788005008E-15
+S1 has finished the delay.
+
+S1 Starts the loop section.
+S1 READ SENSOR: S#9#0.0
+S1 PRINT [print, var]
+S1 RANDB: 10 101
+S1 is writing the message : "22" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 99.99999999999994
+Min (milliseconds) : 1.6E-20
+S1 is listening to the channel
+S1 the channel is free.
+S1 starts sending the message : "22".
+S1 has finished sending the message : "22" to the node: 
+S2 (radio: radio1) is receiving the message : "22" in its buffer.
+S1 starts delaying for 5000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 99.99999999999994
+Min (milliseconds) : 4.32985379603811E-15
+S11 has finished the delay.
+
+S11 Starts the loop section.
+S11 READ SENSOR: S#13#0.0
+S11 PRINT [print, var]
+S11 Read DATA: S#13#0.0
+S11 RANDB: 5 16
+S11 is writing the message : "7" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 99.99999999999994
+Min (milliseconds) : 8.0E-21
+S11 is listening to the channel
+S11 the channel is free.
+S11 starts sending the message : "7".
+S11 has finished sending the message : "7" to the node: 
+S2 (radio: radio1) is receiving the message : "7" in its buffer.
+S11 starts delaying for 1000.0 milliseconds
